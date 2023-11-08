@@ -275,5 +275,39 @@ id {
     font-size: 25px;
 }
 
+.service-line1,
+.service-line2 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.service-line1 div,
+.service-line2 div {
+    justify-content: center;
+    padding: 40px;
+    font-size:15px;
+    backdrop-filter: blur(5px); /* Apply a blur effect to the backdrop */
+    height: 290px;
+    width: 379px;
+    margin: 30px 30px 5px 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: linear-gradient(to top, #000000, transparent 50px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Add a box-shadow here */
+    transition: 0.1s ease-in-out;
+}
+
+.service-line1 div:hover,
+.service-line2 div:hover{
+    transform:  scale(1.05);
+}
+
+.services h1 {
+    font-size: 25px;
+}
+
 
 
