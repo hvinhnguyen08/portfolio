@@ -1,1 +1,1 @@
-A whole new world <3
+My portfolio aka my very first project 💙
