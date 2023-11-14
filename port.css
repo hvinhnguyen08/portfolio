@@ -256,7 +256,6 @@ id {
     margin: 30px 30px 5px 5px;
     border-radius: 20px;
     overflow: hidden;
-    background: linear-gradient(to top, #000000, transparent 50px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Add a box-shadow here */
     transition: 0.1s ease-in-out;
 }
@@ -273,6 +272,14 @@ id {
 
 .portfolio h1 {
     font-size: 25px;
+}
+
+.services{
+    background-color: var(--third-bg-color); 
+    justify-content: center;
+    background: linear-gradient(50deg, var(--lighter-bg-color-2) 50%,transparent 50%); /* Diagonal gradient slash */
+    transform-origin: bottom left; /* Set the transformation origin */
+    position: relative;
 }
 
 .service-line1,
@@ -295,9 +302,15 @@ id {
     margin: 30px 30px 5px 5px;
     border-radius: 20px;
     overflow: hidden;
-    background: linear-gradient(to top, #000000, transparent 50px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Add a box-shadow here */
     transition: 0.1s ease-in-out;
+    position:relative;
+}
+
+.service-line1 p,
+.service-line2 p{
+    position: absolute;
+    bottom: 10px;
 }
 
 .service-line1 div:hover,
@@ -308,6 +321,47 @@ id {
 .services h1 {
     font-size: 25px;
 }
+
+.contact{
+    text-align: center;
+    background-color: var(--third-bg-color); 
+    justify-content: center;
+    background: linear-gradient(50deg, var(--lighter-bg-color-2) 50%,transparent 50%); /* Diagonal gradient slash */
+    transform-origin: bottom left; /* Set the transformation origin */
+    position: relative;
+}
+
+.contact-containter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container input{
+    backdrop-filter: blur(5px); /* Apply a blur effect to the backdrop */
+    margin: 10px;
+}
+
+.contact-line2{
+    margin-bottom: 10px;
+}
+
+.contect-container textarea{
+    backdrop-filter: blur(5px); /* Apply a blur effect to the backdrop */
+
+}
+
+.contact h1 {
+    font-size: 35px;
+    color: rgb(178, 178, 178);
+    justify-self: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+
+
 
 
 
