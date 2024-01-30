@@ -324,31 +324,10 @@ id {
 
 .contact{
     text-align: center;
-    background-color: var(--third-bg-color); 
-    justify-content: center;
-    background: linear-gradient(50deg, var(--lighter-bg-color-2) 50%,transparent 50%); /* Diagonal gradient slash */
+    background: url(images/aboutimg/randommono1.png); 
     transform-origin: bottom left; /* Set the transformation origin */
     position: relative;
-}
-
-.contact-containter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact-container input{
-    backdrop-filter: blur(5px); /* Apply a blur effect to the backdrop */
-    margin: 10px;
-}
-
-.contact-line2{
-    margin-bottom: 10px;
-}
-
-.contect-container textarea{
-    backdrop-filter: blur(5px); /* Apply a blur effect to the backdrop */
-
+    display:block;
 }
 
 .contact h1 {
@@ -358,6 +337,48 @@ id {
     margin-top: 100px;
     margin-bottom: 20px;
 }
+
+.contact-container{
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contact-line1,
+.contact-line2{
+    margin-bottom: 10px;
+    display: flex;
+    width:100%;
+}
+
+.input-line1,
+.input-line2 {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--third-bg-color);
+    border-radius: .8rem;
+}
+
+.textarea{
+    width: 10%;
+}
+
+#submitbtn{
+    margin-top: 2.5rem;
+    
+}
+
+
 
 
 
